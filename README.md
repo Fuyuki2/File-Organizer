@@ -22,20 +22,25 @@ cd File-Organizer
 
 ## Usage
 
-CLI Version
+**CLI Version**
 
 Run and enter the target directory path:
 ```bash
 python file_organizer_cli.py
 ```
+**Example:**
+```bash
+C:\Users\YourName\Documents\school_homework
+```
+---
+**Silent Version**
 
-Silent Version
-
-Place the .exe (or script) inside the folder you want to organize and run it:
+Run:
 ```bash
 python file_organizer_silent.py
 ```
-(or just double-click the .exe)
+
+**Or just double-click the .exe version you choose and it'll work the same**
 
 ---
 ## Outcome
