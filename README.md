@@ -1,69 +1,65 @@
-# File Organizer
+# File Organizer CLI
 
-A lightweight Python tool that automatically sorts files into categorized folders (Images, Videos, Documents, etc.).  
-
-Two versions are available:
-- **CLI Version** – prompts you for a target directory.
-- **Silent Version** – organizes files in the current directory without any input.
+A lightweight Python command-line tool to automatically organize files in a directory by type.  
+The program creates categorized folders (e.g., Images, Videos, Documents, Code) and moves your files into the right place.
 
 ---
 
-## Features
-- Automatically detects file types and moves them into corresponding folders.
-- Supports images, videos, documents, executables, compressed files, code files, and more.
-- Creates folders only when needed.
-- Available in **CLI** (interactive) or **Silent** (drop-and-run) modes.---
-## Installation
-Clone this repository:
-```bash
-git clone https://github.com/Fuyuki2/File-Organizer.git
-cd File-Organizer
-````
-
-## Usage
-
-**CLI Version**
-
-Run and enter the target directory path:
-```bash
-python file_organizer_cli.py
-```
-**Example:**
-```bash
-C:\Users\YourName\Documents\school_homework
-```
----
-**Silent Version**
-
-Run:
-```bash
-python file_organizer_silent.py
-```
-
-**Or just double-click the .exe version you choose and it'll work the same**
+## ✨ Features
+- Sorts files into categories:
+  - **Images**: `.jpg`, `.jpeg`, `.png`, `.gif`, `.webp`
+  - **Videos**: `.mp4`, `.avi`, `.mov`, `.mkv`
+  - **Documents**: `.pdf`, `.docx`, `.txt`, `.xlsx`
+  - **Code**: `.py`, `.c`, `.cpp`, `.java`, `.js`, `.html`, `.css`
+  - **Audio**: `.wav`
+  - **Other**: anything else
+- Automatically creates folders if they don’t exist.
+- Skips invalid paths and handles empty directories safely.
+- Works on Windows, Linux, and macOS.
 
 ---
-## Outcome
 
-**Before**
+## 📂 Project Structure
 ```html
-project/
- ├── report.docx
- ├── movie.mp4
- ├── script.py
- └── photo.jpg
-
+file-organizer-cli/
+│
+├── main.py                # Entry point
+├── organization_system.py # Core logic
+├── README.md
+└── LICENSE
 ```
-**After**
+
+## ⚡ Installation
+
+Clone the repository:
+```
+git clone https://github.com/BelacEr/file-organizer-cli.git
+cd file-organizer-cli
+```
+
+## 🖥️ Usage
+
+Run the program with:
+```bash
+python main.py
+```
+
+Enter the path of the directory you want to organize.
+For example:
+
+Enter the directory (or 'q' to exit): /home/user/Downloads
+
+After running, the directory will look like this:
 
 ```html
-project/
- ├── DOCUMENT/
- │   └── report.docx
- ├── VIDEO/
- │   └── movie.mp4
- ├── CODE/
- │   └── script.py
- └── IMAGE/
-     └── photo.jpg
+Downloads/
+├── AUDIO/
+├── CODE/
+├── DOCUMENTS/
+├── IMAGES/
+├── OTHER/
+└── VIDEOS/
 ```
+## 📜 License
+
+[MIT](https://github.com/BelacEr/file-organizer-cli/blob/main/LICENSE) Copyright (c) [BelacEr](https://github.com/BelacEr)
