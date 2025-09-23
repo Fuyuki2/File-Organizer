@@ -33,7 +33,7 @@ file-organizer-cli/
 
 Clone the repository:
 ```
-git clone https://github.com/BelacEr/file-organizer-cli.git
+git clone https://github.com/Fuyuki2/File-Organizer.git
 cd file-organizer-cli
 ```
 
@@ -62,4 +62,4 @@ Downloads/
 ```
 ## 📜 License
 
-[MIT](https://github.com/BelacEr/file-organizer-cli/blob/main/LICENSE) Copyright (c) [BelacEr](https://github.com/BelacEr)
+[MIT](https://github.com/Fuyuki2/File-Organizer/blob/main/LICENSE) Copyright (©) [Fuyuki2](https://github.com/Fuyuki2)
